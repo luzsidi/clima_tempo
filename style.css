@@ -1,0 +1,49 @@
+body {
+   margin:center 200;
+    padding: 500px;
+    flex-direction:column;
+    align-items:flex-start;
+    text-align: center;
+    
+    
+   
+}
+
+
+main { 
+    margin-top: 1px;
+    padding: 0px;
+    display: flex;
+   flex-direction: initial;
+  align-items: flex-start;
+  background-color: rgb(46, 128, 194);
+  text-align: center;
+}
+
+#temp-div,
+#condition-div,
+#sensation-div,
+#wind-div,
+#wind-div2,
+#humidity-div,
+#humidity-div2 {
+    margin: 0px 0;
+    padding: 0px;
+   
+}
+
+ul {
+    
+   
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin: 20px;
+    padding: 12px;
+}
+
